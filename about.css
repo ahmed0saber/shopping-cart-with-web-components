@@ -1,0 +1,15 @@
+.about-page h1 {
+    color: #101010;
+}
+
+.about-page p {
+    color: #101010;
+    opacity: 0.8;
+    margin: 12px 0;
+}
+
+.about-page ul {
+    list-style-position: inside;
+    color: #101010;
+    opacity: 0.8;
+}

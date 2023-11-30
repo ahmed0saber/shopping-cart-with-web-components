@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Home | Web Components</title>
+    <link rel='stylesheet' href='./globals.css'>
+    <link rel='stylesheet' href='./index.css'>
+</head>
+
+<body>
+    <navbar-component active="/"></navbar-component>
+
+    <main class="home-page">
+        <h1>Home Page</h1>
+        <p>This simple project is an application on using <strong>Web Components</strong></p>
+        <button class="btn-remove-all-from-cart">remove all from cart</button>
+        <div class="products-container"></div>
+    </main>
+
+    <footer-component></footer-component>
+</body>
+<script src="./utils.js"></script>
+<script src="./components.js"></script>
+<script src="./script.js"></script>
+
+</html>
